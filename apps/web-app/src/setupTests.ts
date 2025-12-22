@@ -2,9 +2,7 @@ import '@testing-library/jest-dom'
 import { configure } from '@testing-library/react'
 
 // Configure React Testing Library for React 18
-configure({
-  reactStrictMode: true,
-})
+configure({})
 
 // Mock window.matchMedia
 Object.defineProperty(window, 'matchMedia', {
